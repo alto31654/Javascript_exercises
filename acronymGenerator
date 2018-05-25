@@ -1,0 +1,9 @@
+function acronymMaker(str){
+  x = str.split(' ');
+  var z = '';
+  for (i=0;i<x.length;i++) {
+    z+= x[i][0];
+  }
+  return(z);
+  return(x);
+}
