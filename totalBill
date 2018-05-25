@@ -1,0 +1,3 @@
+function calculateBillTotal(preTaxAndTipAmount) {
+  return Math.round((preTaxAndTipAmount*1.245)*100)/100;
+}
