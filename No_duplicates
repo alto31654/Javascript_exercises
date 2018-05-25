@@ -1,0 +1,15 @@
+function noDuplicates(phrase){
+  var x = phrase.split(' ');
+
+
+  for (i=0; i<x.length; i++) {
+    for (f=0; f<x.length; f++) {
+      if (x[i] == x[f]) {
+        if(i !== f){
+          return('no');
+        }
+      }
+    }
+  }
+  return('yes');
+}
