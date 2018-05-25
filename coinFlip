@@ -1,0 +1,8 @@
+c = prompt('Total coin flips: ',"Number goes here");
+console.log('Total coin flips: ' + c);
+console.log('=====================')
+var h = 0
+var t = 0
+for (i=0;i<c;i++) {var num = Math.floor(Math.random() * 2);if (num == 0) {h+=1;}else {t+=1;}}
+console.log('Heads ' + h);
+console.log('Tails ' + t);
